@@ -1,0 +1,309 @@
+/*ملف التعديل*/
+
+body {
+    height: 100%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}
+
+.header {
+    position: relative;
+    top: -20px;
+    background-color: black;
+}
+
+.header2 {
+    background-color: #0000006b;
+}
+
+.header h1 {
+    font-family: 'Reem Kufi';
+    padding: 100px 0px 40px 0px;
+    font-size: 50px;
+    text-align: 2px;
+    color: #bf9423;
+    display: inline;
+    /* font-family: 'Aref Ruqaa', serif; */
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.navbar-collapse {
+    background: none;
+}
+
+
+/* #f7e1a8; */
+
+.navbar-default .navbar-collapse {
+    height: 700px;
+}
+
+.navbar-default {
+    background: url(../img/22.jpeg);
+    background-size: cover;
+    width: 100%;
+    border: none;
+    position: relative;
+    top: -20px;
+}
+
+.active {
+    color: rgb(255, 196, 0);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(26, 24, 24);
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(255, 196, 0);
+}
+
+h3 {
+    color: rgb(255, 196, 0);
+}
+
+
+/*.navv {
+    background-color:#0000008c;
+    height: 480px;
+} */
+
+
+/*.navbar-form .form-group {
+    padding-top: 30px;
+
+}*/
+
+.form-group input {
+    width: 700px;
+    padding-left: 120px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: #1f1919eb;
+    border: 1px solid #bf9423;
+    font-size: 25px;
+    color: #bf9423;
+}
+
+.btn1 {
+    color: #333;
+    background-color: #000000c4;
+    height: 80px;
+    border-radius: 25px;
+    width: 80px;
+    margin-right: 15px;
+    border: none;
+    font-size: 25px;
+    color: #bf9423;
+}
+
+.topp {
+    background: none;
+    border: none;
+}
+
+.topp>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
+    border-radius: 0px;
+}
+
+.topp a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#top {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    display: none;
+}
+
+#top:focus {
+    border: none;
+}
+
+#contant {
+    transition-duration: 1s;
+    transition-delay: .5s;
+}
+
+
+/*.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}*/
+
+
+/*.sections {
+    margin-top: 80px;
+}
+.element {
+    height: 200px;
+    background-color: white;
+    border: 2px solid #7d82a9;
+}
+.element:hover {
+
+    color:white;
+    background-color: black;
+    border: 7px solid #7d82a9;
+    transition-duration: 2s ;
+}
+.element h1 {
+    margin-top: 70px;
+}
+
+.footer2 {
+    margin-top: 80px;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+}
+.footer2 a {
+    text-decoration: none;
+    color:#7d82a9;
+    font-size: 30px;
+}*/
+
+.part {
+    background-color: #3333330d;
+}
+
+.thumbnail {
+    background: none;
+    border: none;
+}
+
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    margin-left: 40px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.thumbnail>img {
+    border-radius: 400px;
+    width: 300px;
+}
+
+
+/* arabic */
+
+@font-face {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/reemkufi/v9/2sDcZGJLip7W2J7v7wQzbWW5O7w.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/reemkufi/v9/2sDcZGJLip7W2J7v7wQzaGW5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#btnn {
+    border: 1.8px solid;
+    border-radius: 15px;
+    color: #060606;
+    background-color: #fff;
+    border-color: #f08080;
+    padding: 3px 30px;
+}
+
+#btnn1 {
+    border: 1.8px solid;
+    border-radius: 15px;
+    border-color: #836fff;
+    padding: 3px 30px;
+}
+
+#btnn2 {
+    border: 1.8px solid;
+    border-radius: 15px;
+    border-color: #18f1df;
+    padding: 3px 30px;
+}
+
+#btnn3 {
+    border: 1.8px solid;
+    border-radius: 15px;
+    border-color: #b93ba4;
+    padding: 3px 30px;
+}
+
+#btnn4 {
+    border: 1.8px solid;
+    border-radius: 15px;
+    border-color: #a7a7a7;
+    padding: 3px 30px;
+}
+
+#btnn5 {
+    border: 1.8px solid;
+    border-radius: 15px;
+    border-color: #53c56b;
+    padding: 3px 30px;
+}
+
+#btnn6 {
+    border: 1.8px solid;
+    border-radius: 15px;
+    border-color: #de7e2b;
+    padding: 3px 30px;
+}
+
+#btnn7 {
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #00a1ffa1;
+    padding: 3px 30px;
+}
+
+.btn11 {
+    border: 1px solid #bf9423;
+    background-color: black;
+    color: #f7bc22;
+}
